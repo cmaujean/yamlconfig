@@ -1,0 +1,2 @@
+arrayval: [ foo, bar, baz ]
+hashval: { foo: FOO , bar: BAR }
