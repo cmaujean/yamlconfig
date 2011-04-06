@@ -10,6 +10,14 @@ describe YAMLConfig do
     end
   end
   
+  describe "with a non-existent file" do
+    it "it raises an exception" do
+      lambda {
+        YAMLConfig.new('spec/data/missing_file')
+      }.should raise_error(Errno::ENOENT)
+    end
+  end
+  
   describe "with complex values" do
     before :each do
       @yc = YAMLConfig.new('spec/data/complex_values')
