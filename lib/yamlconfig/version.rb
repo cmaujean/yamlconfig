@@ -1,1 +1,1 @@
-YAMLConfig::VERSION = "0.1.2"
+YAMLConfig::VERSION = "0.2.0"
