@@ -1,0 +1,8 @@
+--- 
+"#nogoodshits": 
+- "*.bar.com"
+- "*.example.com"
+nogoodshits: 
+- cmaujean
+- erikh
+- PopeKetric
